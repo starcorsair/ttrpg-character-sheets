@@ -1,0 +1,66 @@
+
+/*styles*/
+@import url("./styles/titles/titles.css");
+
+/*fonts*/
+/*@import url("./styles/font-style/fonts.css");*/
+@font-face {
+    font-family: "Cocogoose Letterpress";
+    src: url("./fonts/COCOGOOSELETTERPRESS-TRIAL.woff") format("woff"), url("./fonts/COCOGOOSELETTERPRESS-TRIAL.ttf") format("truetype"), url();
+    src: url('./fonts/COCOGOOSELETTERPRESS-TRIAL.otf') format('otf');
+   
+}
+@font-face {
+font-family: "Alegreya";
+src: url("./fonts/Alegreya-Regular.ttf")format("truetype"), url(".../fonts/Alegreya-Regular.woff")format("woff");
+
+}
+
+@font-face {
+font-family: "Alegreya";
+src: url("./fonts/Alegreya-MediumItalic.ttf")format("truetype"), url(".../fonts/Alegreya-MediumItalic.woff")format("woff");
+
+}
+
+@font-face {
+font-family: "Alegreya";
+src: url("./fonts/Alegreya-Medium.ttf")format("truetype"), url(".../fonts/Alegreya-Medium.woff")format("woff");
+
+}
+
+@font-face {
+    font-family: "Alegreya";
+    src: url("./fonts/Alegreya-Italic.ttf")format("truetype"), url(".../fonts/Alegreya-Italic.woff")format("woff");
+
+    }
+@font-face {
+    font-family: "Alegreya";
+    src: url("./fonts/Alegreya-ExtraBoldItalic.ttf")format("truetype"), url(".../fonts/Alegreya-ExtraBoldItalic.woff")format("woff");
+    
+    }
+@font-face {
+    font-family: "Alegreya";
+    src: url("./fonts/Alegreya-ExtraBold.ttf")format("truetype"), url(".../fonts/Alegreya-ExtraBold.woff")format("woff");
+    
+    }
+@font-face {
+    font-family: "Alegreya";
+    src: url("./fonts/Alegreya-BoldItalic.ttf")format("truetype"), url(".../fonts/Alegreya-BoldItalic.woff")format("woff");
+
+        }
+@font-face {
+    font-family: "Alegreya";
+    src: url("./fonts/Alegreya-Bold.ttf")format("truetype"), url(".../fonts/Alegreya-Bold.woff")format("woff");
+        
+    }
+@font-face {
+        font-family: "Alegreya";
+        src: url("./fonts/Alegreya-BlackItalic.ttf")format("truetype"), url(".../fonts/Alegreya-BlackItalic.woff")format("woff");
+            
+        }
+    
+    @font-face {
+            font-family: "Alegreya";
+            src: url("./fonts/Alegreya-Black.ttf")format("truetype"), url(".../fonts/Alegreya-Black.woff")format("woff");
+                
+            }
