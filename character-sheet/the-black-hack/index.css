@@ -2,6 +2,15 @@
 /*styles*/
 @import url("./styles/titles/titles.css");
 
+@import url("./styles/main-blocks/main-block.css");
+@import url("./styles/main-blocks/main-block-bottom.css");
+
+@import url("./styles/main-blocks/main-block-left.css");
+@import url("./styles/main-blocks/main-block-right.css");
+@import url("./styles/lists/list.css");
+@import url("./styles/titles/titles.css");
+@import url("./styles/titles/titles-mini.css");
+
 /*fonts*/
 /*@import url("./styles/font-style/fonts.css");*/
 @font-face {
