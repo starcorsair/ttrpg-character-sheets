@@ -1,4 +1,3 @@
-
 /*styles*/
 @import url("./styles/titles/titles.css");
 
@@ -11,65 +10,156 @@
 @import url("./styles/titles/titles.css");
 @import url("./styles/titles/titles-mini.css");
 
+/*styles-off*/
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Prevent font size inflation */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+/* Set shorter line heights on headings and interactive elements */
+h1,
+h2,
+h3,
+h4,
+button,
+input,
+label {
+  line-height: 1.1;
+}
+
+/* Balance text wrapping on headings */
+h1,
+h2,
+h3,
+h4 {
+  text-wrap: balance;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+  color: currentColor;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Make sure textarea without a rows attribute are not tiny */
+textarea:not([rows]) {
+  min-height: 10em;
+}
+
+/* Anything that has been anchored to should have extra scroll margin */
+:target {
+  scroll-margin-block: 5ex;
+}
+
 /*fonts*/
 /*@import url("./styles/font-style/fonts.css");*/
 @font-face {
-    font-family: "Cocogoose Letterpress";
-    src: url("./fonts/COCOGOOSELETTERPRESS-TRIAL.woff") format("woff"), url("./fonts/COCOGOOSELETTERPRESS-TRIAL.ttf") format("truetype"), url();
-    src: url('./fonts/COCOGOOSELETTERPRESS-TRIAL.otf') format('otf');
-   
+  font-family: "Cocogoose Letterpress";
+  src: url("./fonts/COCOGOOSELETTERPRESS-TRIAL.woff") format("woff"),
+    url("./fonts/COCOGOOSELETTERPRESS-TRIAL.ttf") format("truetype"), url();
+  src: url("./fonts/COCOGOOSELETTERPRESS-TRIAL.otf") format("otf");
 }
 @font-face {
-font-family: "Alegreya";
-src: url("./fonts/Alegreya-Regular.ttf")format("truetype"), url(".../fonts/Alegreya-Regular.woff")format("woff");
-
-}
-
-@font-face {
-font-family: "Alegreya";
-src: url("./fonts/Alegreya-MediumItalic.ttf")format("truetype"), url(".../fonts/Alegreya-MediumItalic.woff")format("woff");
-
+  font-family: "Alegreya";
+  src: url("./fonts/Alegreya-Regular.ttf") format("truetype"),
+    url(".../fonts/Alegreya-Regular.woff") format("woff");
 }
 
 @font-face {
-font-family: "Alegreya";
-src: url("./fonts/Alegreya-Medium.ttf")format("truetype"), url(".../fonts/Alegreya-Medium.woff")format("woff");
-
+  font-family: "Alegreya";
+  src: url("./fonts/Alegreya-MediumItalic.ttf") format("truetype"),
+    url(".../fonts/Alegreya-MediumItalic.woff") format("woff");
 }
 
 @font-face {
-    font-family: "Alegreya";
-    src: url("./fonts/Alegreya-Italic.ttf")format("truetype"), url(".../fonts/Alegreya-Italic.woff")format("woff");
+  font-family: "Alegreya";
+  src: url("./fonts/Alegreya-Medium.ttf") format("truetype"),
+    url(".../fonts/Alegreya-Medium.woff") format("woff");
+}
 
-    }
 @font-face {
-    font-family: "Alegreya";
-    src: url("./fonts/Alegreya-ExtraBoldItalic.ttf")format("truetype"), url(".../fonts/Alegreya-ExtraBoldItalic.woff")format("woff");
-    
-    }
+  font-family: "Alegreya";
+  src: url("./fonts/Alegreya-Italic.ttf") format("truetype"),
+    url(".../fonts/Alegreya-Italic.woff") format("woff");
+}
 @font-face {
-    font-family: "Alegreya";
-    src: url("./fonts/Alegreya-ExtraBold.ttf")format("truetype"), url(".../fonts/Alegreya-ExtraBold.woff")format("woff");
-    
-    }
+  font-family: "Alegreya";
+  src: url("./fonts/Alegreya-ExtraBoldItalic.ttf") format("truetype"),
+    url(".../fonts/Alegreya-ExtraBoldItalic.woff") format("woff");
+}
 @font-face {
-    font-family: "Alegreya";
-    src: url("./fonts/Alegreya-BoldItalic.ttf")format("truetype"), url(".../fonts/Alegreya-BoldItalic.woff")format("woff");
+  font-family: "Alegreya";
+  src: url("./fonts/Alegreya-ExtraBold.ttf") format("truetype"),
+    url(".../fonts/Alegreya-ExtraBold.woff") format("woff");
+}
+@font-face {
+  font-family: "Alegreya";
+  src: url("./fonts/Alegreya-BoldItalic.ttf") format("truetype"),
+    url(".../fonts/Alegreya-BoldItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "Alegreya";
+  src: url("./fonts/Alegreya-Bold.ttf") format("truetype"),
+    url(".../fonts/Alegreya-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "Alegreya";
+  src: url("./fonts/Alegreya-BlackItalic.ttf") format("truetype"),
+    url(".../fonts/Alegreya-BlackItalic.woff") format("woff");
+}
 
-        }
 @font-face {
-    font-family: "Alegreya";
-    src: url("./fonts/Alegreya-Bold.ttf")format("truetype"), url(".../fonts/Alegreya-Bold.woff")format("woff");
-        
-    }
-@font-face {
-        font-family: "Alegreya";
-        src: url("./fonts/Alegreya-BlackItalic.ttf")format("truetype"), url(".../fonts/Alegreya-BlackItalic.woff")format("woff");
-            
-        }
-    
-    @font-face {
-            font-family: "Alegreya";
-            src: url("./fonts/Alegreya-Black.ttf")format("truetype"), url(".../fonts/Alegreya-Black.woff")format("woff");
-                
-            }
+  font-family: "Alegreya";
+  src: url("./fonts/Alegreya-Black.ttf") format("truetype"),
+    url(".../fonts/Alegreya-Black.woff") format("woff");
+}

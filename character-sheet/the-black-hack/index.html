@@ -1,33 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
     <title>Fullable TBH character sheet</title>
-</head>
-<body>
+  </head>
+  <body>
     <main class="main">
-<div class="main-block">
-    <div class="main-block-left">
-        <label class=" label-main label-name"></label>
-        <label class=" label-main label-class"></label>
-        <hr class="main-hr">
-        <label for="label-main label-stats"></label>
-        <label for="label-main label-stats"></label>
-        <label for="label-main label-stats"></label>
-        <label for="label-main label-stats"></label>
-        <label for="label-main label-stats"></label>
-        <label for="label-main label-stats"></label>
-<hr>
-
-    </div>
- 
-    <div class="main-block-right"></div>
-    <div class="main-block-bottom">
-        <h2>Maps &#38; Notes</h2>
-    </div>
-</div>
+      <div class="main-block">
+        <div class="main-block-left">
+          <!--block top-->
+          <div class="block-left-top">
+            <!--name and class-->
+            <label class="label-main label-name" for="name">Name</label>
+            <input type="text" id="name" />
+            <label class="label-main label-class" for="class">Class</label>
+            <input type="text" id="class" />
+            <hr class="main-hr" />
+          </div>
+          <!--block bottom-->
+          <div class="block-left-bottom">
+            <!--stats-->
+            <label class="label-main label-stats" for="str">Strenght</label>
+            <input type="text" id="str" />
+            <label class="label-main label-stats" for="dex">Dexterity</label>
+            <input type="text" id="dex" />
+            <label class="label-main label-stats" for="con">Constitution</label>
+            <input type="text" id="con" />
+            <label class="label-main label-stats" for="int">Intelligence</label>
+            <input type="text" id="int" />
+            <label class="label-main label-stats" for="wis">Wisdom</label>
+            <input type="text" id="wis" />
+            <label class="label-main label-stats" for="cha">Charisma</label>
+            <input type="text" id="cha" />
+            <hr class="main-hr" />
+          </div>
+          <!--second block bottom -->
+          <div class="block-left-bottom">
+            <!--HD-->
+            <label class="hitdice" for="hd">Hd</label>
+            <input type="text" id="hf" />
+            <span class="span">&#38;</span>
+            <!--HP-->
+            <label class="hitpoint" for="hitpoints"> Hit points</label>
+            <input type="text" id="hitpoints" />
+          </div>
+          <h2>Maps &#38; Notes</h2>
+          <!--to left block-->
+        </div>
+        <!--right block-->
+        <div class="main-block-right">
+          <!--top block-->
+          <div class="block-right-top">
+            <!--first table-->
+            <div class="table table-right-top">
+              <!--armor cell-->
+              <div class="table-title">
+                <h3 class="table-title-text">Armor</h3>
+                <div class="table-cell"></div>
+                <div class="table-cell"></div>
+                <div class="table-cell"></div>
+                <div class="table-cell"></div>
+              </div>
+              <!--AV cell-->
+              <div class="table-title">
+                <h3 class="table-title-text">Av</h3>
+                <div class="table-cell"></div>
+                <div class="table-cell"></div>
+                <div class="table-cell"></div>
+                <div class="table-cell"></div>
+              </div>
+              <!--AV dice cell-->
+              <div class="table-title table-title-right">
+                <div class="table-cell table-cell-right"></div>
+              </div>
+            </div>
+          </div>
+          <!--bottom block right-->
+        </div>
+        <div class="main-block-bottom"></div>
+      </div>
     </main>
-</body>
+  </body>
 </html>
