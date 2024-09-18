@@ -1,0 +1,5 @@
+.footer-text {
+  resize: none;
+  overflow: auto;
+  outline: none; /*to change!*/
+}

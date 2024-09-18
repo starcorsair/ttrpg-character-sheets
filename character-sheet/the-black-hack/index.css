@@ -1,14 +1,18 @@
 /*styles*/
-@import url("./styles/titles/titles.css");
-
+/*main*/
 @import url("./styles/main-blocks/main-block.css");
 @import url("./styles/main-blocks/main-block-bottom.css");
-
 @import url("./styles/main-blocks/main-block-left.css");
 @import url("./styles/main-blocks/main-block-right.css");
+/*all page*/
 @import url("./styles/lists/list.css");
 @import url("./styles/titles/titles.css");
 @import url("./styles/titles/titles-mini.css");
+@import url("./styles/input/input.css");
+/*footer*/
+@import url("./styles/footer/footer-block.css");
+@import url("./styles/footer/footer-notes.css");
+@import url("./styles/footer/footer-text.css");
 
 /*styles-off*/
 /* Box sizing rules */
