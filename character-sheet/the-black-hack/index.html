@@ -17,7 +17,7 @@
             <input class="input" type="text" id="name" />
             <label class="label-main label-class" for="class">Class</label>
             <input class="input" type="text" id="class" />
-            <hr class="main-hr" />
+            <div class="main-hr"><hr class="main-hr-bottom" /></div>
           </div>
           <!--block bottom-->
           <div class="block-left-bottom">
@@ -79,28 +79,101 @@
           </div>
           <!--bottom block right-->
           <!--title-->
-          <div class="table-title table-title-white">
-            <!--cells-->
-            <div class="table-cell"></div>
-            <div class="table-cell"></div>
-            <div class="table-cell"></div>
-            <div class="table-cell"></div>
-            <div class="table-cell"></div>
-            <div class="table-cell"></div>
-            <div class="table-cell"></div>
-            <div class="table-cell"></div>
-            <div class="table-cell"></div>
-            <div class="table-cell"></div>
-            <div class="table-cell"></div>
-            <div class="table-cell"></div>
-            <div class="table-cell"></div>
-            <div class="table-cell"></div>
-            <div class="table-cell"></div>
-            <div class="table-cell"></div>
-            <div class="table-cell"></div>
-            <div class="table-cell"></div>
-            <div class="table-cell"></div>
-            <div class="table-cell"></div>
+          <div class="table-title">
+            <div class="table-title-white">
+              <h2 class="title-white">Inventory</h2>
+            </div>
+            <!--rows and cells-->
+            <div class="table-title-main">
+              <!--row 1-->
+              <div class="table-row">
+                <div class="table-cell">
+                  <!--table numbers-->
+                  <label class="table-number" for="tables">1</label>
+                  <input class="input input-table" type="text" id="tables" />
+                </div>
+                <div class="table-cell">
+                  <label class="table-number" for="tables">2</label>
+                  <input class="input input-table" type="text" id="tables" />
+                </div>
+                <div class="table-cell">
+                  <label class="table-number" for="tables">3</label>
+                  <input class="input input-table" type="text" id="tables" />
+                </div>
+                <div class="table-cell">
+                  <label class="table-number" for="tables">4</label>
+                  <input class="input input-table" type="text" id="tables" />
+                </div>
+                <div class="table-cell">
+                  <label class="table-number" for="tables">5</label>
+                  <input class="input input-table" type="text" id="tables" />
+                </div>
+                <div class="table-cell">
+                  <label class="table-number" for="tables">6</label>
+                  <input class="input input-table" type="text" id="tables" />
+                </div>
+                <div class="table-cell">
+                  <label class="table-number" for="tables">7</label>
+                  <input class="input input-table" type="text" id="tables" />
+                </div>
+                <div class="table-cell">
+                  <label class="table-number" for="tables">8</label>
+                  <input class="input input-table" type="text" id="tables" />
+                </div>
+                <div class="table-cell">
+                  <label class="table-number" for="tables">9</label>
+                  <input class="input input-table" type="text" id="tables" />
+                </div>
+                <div class="table-cell">
+                  <label class="table-number" for="tables">10</label>
+                  <input class="input input-table" type="text" id="tables" />
+                </div>
+              </div>
+              <!--row 2-->
+              <div class="table-row">
+                <div class="table-cell">
+                  <label class="table-number" for="tables">11</label>
+                  <input class="input input-table" type="text" id="tables" />
+                </div>
+                <div class="table-cell">
+                  <label class="table-number" for="tables">12</label>
+                  <input class="input input-table" type="text" id="tables" />
+                </div>
+                <div class="table-cell">
+                  <label class="table-number" for="tables">13</label>
+                  <input class="input input-table" type="text" id="tables" />
+                </div>
+                <div class="table-cell">
+                  <label class="table-number" for="tables">14</label>
+                  <input class="input input-table" type="text" id="tables" />
+                </div>
+                <div class="table-cell">
+                  <label class="table-number" for="tables">15</label>
+                  <input class="input input-table" type="text" id="tables" />
+                </div>
+                <div class="table-cell">
+                  <label class="table-number" for="tables">16</label>
+                  <input class="input input-table" type="text" id="tables" />
+                </div>
+                <div class="table-cell">
+                  <label class="table-number" for="tables">17</label>
+                  <input class="input input-table" type="text" id="tables" />
+                </div>
+                <div class="table-cell">
+                  <label class="table-number" for="tables">18</label>
+                  <input class="input input-table" type="text" id="tables" />
+                </div>
+                <div class="table-cell">
+                  <label class="table-number" for="tables">19</label>
+                  <input class="input input-table" type="text" id="tables" />
+                </div>
+                <div class="table-cell">
+                  <label class="table-number" for="tables">20</label>
+                  <input class="input input-table" type="text" id="tables" />
+                </div>
+              </div>
+              <!--row 2 end-->
+            </div>
           </div>
         </div>
       </div>
@@ -109,13 +182,7 @@
         <!--footer header-->
         <label class="footer-notes" for="notes">Maps &#38; Notes</label>
         <!--footer textarea-->
-        <textarea
-          class="footer-text"
-          id="notes"
-          name="notes"
-          autocomplete="off"
-          wrap="hard"
-        ></textarea>
+        <div class="footer-text" contenteditable="true"></div>
       </div>
     </main>
   </body>

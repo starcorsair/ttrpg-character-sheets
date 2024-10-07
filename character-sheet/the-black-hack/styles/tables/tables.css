@@ -1,0 +1,24 @@
+.table-title {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+}
+
+.table-cell {
+  display: flex;
+  flex: 1;
+  margin-top: 5px;
+  width: 150x;
+}
+.table-title-white {
+  text-align: center;
+  background-color: #000;
+  width: 360px;
+  height: 50px;
+  margin: 0;
+  padding-top: 10px;
+}
+.table-title-main {
+  display: flex;
+  flex-direction: row;
+}

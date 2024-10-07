@@ -11,3 +11,7 @@ label {
 .span {
   font-family: "Cocogoose Letterpress", Arial, Helvetica, sans-serif;
 }
+.title-white {
+  color: #fff;
+  text-transform: uppercase;
+}

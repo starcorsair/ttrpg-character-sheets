@@ -1,5 +1,10 @@
 .footer-text {
-  resize: none;
-  overflow: auto;
-  outline: none; /*to change!*/
+  background-image: url(pagegrid.png);
+  background-repeat: repeat;
+  background-size: 50px;
+
+  height: 200px;
+}
+.footer-text:focus {
+  outline: none;
 }

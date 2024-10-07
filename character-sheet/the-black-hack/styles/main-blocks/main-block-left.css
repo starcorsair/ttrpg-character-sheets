@@ -1,0 +1,18 @@
+.block-left-top {
+  display: flex;
+  flex-direction: column;
+  width: 190px;
+}
+.block-left-bottom {
+  width: 190px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-hr-bottom {
+  margin: 20px 0;
+  padding: 0;
+  height: 0;
+  border: none;
+  border-top: 3px solid #333;
+}

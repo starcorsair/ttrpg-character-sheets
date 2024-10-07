@@ -1,0 +1,7 @@
+.main-block {
+  /* width: 873px;*/
+  background-color: #ffffff;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
