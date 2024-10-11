@@ -1,14 +1,14 @@
 .table-title {
   display: flex;
   flex-direction: column;
-  width: 360px;
+  /*width: 360px;*/
 }
 
 .table-cell {
   display: flex;
   flex: 1;
   margin-top: 5px;
-  width: 150x;
+  /*width: 150x;*/
 }
 .table-title-white {
   text-align: center;
@@ -21,4 +21,37 @@
 .table-title-main {
   display: flex;
   flex-direction: row;
+}
+.table-cell-right-title {
+  font-family: "Alegreya", Impact, Haettenschweiler, "Arial Narrow Bold",
+    sans-serif;
+  font-style: italic;
+  color: #dddddd;
+  font-size: 20px;
+  text-align: center;
+}
+
+/*top row main*/
+.table-right-top {
+  display: flex;
+}
+/*top cells*/
+
+.table-title-one {
+  width: 135px;
+  height: 37px;
+}
+
+.table-title-two {
+  width: 55px;
+  height: 33px;
+}
+
+.table-title-three {
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
